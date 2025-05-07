@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		195952141594473F001757BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 195952131594473F001757BC /* UIKit.framework */; };
+		195952161594473F001757BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 195952151594473F001757BC /* Foundation.framework */; };
+		195952181594473F001757BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 195952171594473F001757BC /* CoreGraphics.framework */; };
+		1959521A1594473F001757BC /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 195952191594473F001757BC /* GLKit.framework */; };
+		1959521C1594473F001757BC /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1959521B1594473F001757BC /* OpenGLES.framework */; };
+		195952221594473F001757BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 195952201594473F001757BC /* InfoPlist.strings */; };
+		195952241594473F001757BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 195952231594473F001757BC /* main.m */; };
+		195952281594473F001757BC /* SJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 195952271594473F001757BC /* SJAppDelegate.m */; };
+		1959522A1594473F001757BC /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 195952291594473F001757BC /* Shader.fsh */; };
+		1959522C1594473F001757BC /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 1959522B1594473F001757BC /* Shader.vsh */; };
+		1959522F1594473F001757BC /* SJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1959522E1594473F001757BC /* SJViewController.m */; };
+		195952321594473F001757BC /* SJViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 195952301594473F001757BC /* SJViewController.xib */; };
+		19A4A94715B3DF4F000F96A1 /* negy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 19A4A94115B3DF4F000F96A1 /* negy.jpg */; };
+		19A4A94815B3DF4F000F96A1 /* negz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 19A4A94215B3DF4F000F96A1 /* negz.jpg */; };
+		19A4A94915B3DF4F000F96A1 /* posx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 19A4A94315B3DF4F000F96A1 /* posx.jpg */; };
+		19A4A94A15B3DF4F000F96A1 /* negx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 19A4A94415B3DF4F000F96A1 /* negx.jpg */; };
+		19A4A94B15B3DF4F000F96A1 /* posy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 19A4A94515B3DF4F000F96A1 /* posy.jpg */; };
+		19A4A94C15B3DF4F000F96A1 /* posz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 19A4A94615B3DF4F000F96A1 /* posz.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1959520F1594473F001757BC /* TestSkybox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSkybox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		195952131594473F001757BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		195952151594473F001757BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		195952171594473F001757BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		195952191594473F001757BC /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		1959521B1594473F001757BC /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		1959521F1594473F001757BC /* TestSkybox-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestSkybox-Info.plist"; sourceTree = "<group>"; };
+		195952211594473F001757BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		195952231594473F001757BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		195952251594473F001757BC /* TestSkybox-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestSkybox-Prefix.pch"; sourceTree = "<group>"; };
+		195952261594473F001757BC /* SJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJAppDelegate.h; sourceTree = "<group>"; };
+		195952271594473F001757BC /* SJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJAppDelegate.m; sourceTree = "<group>"; };
+		195952291594473F001757BC /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		1959522B1594473F001757BC /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		1959522D1594473F001757BC /* SJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJViewController.h; sourceTree = "<group>"; };
+		1959522E1594473F001757BC /* SJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJViewController.m; sourceTree = "<group>"; };
+		195952311594473F001757BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SJViewController.xib; sourceTree = "<group>"; };
+		19A4A94115B3DF4F000F96A1 /* negy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = negy.jpg; sourceTree = "<group>"; };
+		19A4A94215B3DF4F000F96A1 /* negz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = negz.jpg; sourceTree = "<group>"; };
+		19A4A94315B3DF4F000F96A1 /* posx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = posx.jpg; sourceTree = "<group>"; };
+		19A4A94415B3DF4F000F96A1 /* negx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = negx.jpg; sourceTree = "<group>"; };
+		19A4A94515B3DF4F000F96A1 /* posy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = posy.jpg; sourceTree = "<group>"; };
+		19A4A94615B3DF4F000F96A1 /* posz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = posz.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1959520C1594473F001757BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195952141594473F001757BC /* UIKit.framework in Frameworks */,
+				195952161594473F001757BC /* Foundation.framework in Frameworks */,
+				195952181594473F001757BC /* CoreGraphics.framework in Frameworks */,
+				1959521A1594473F001757BC /* GLKit.framework in Frameworks */,
+				1959521C1594473F001757BC /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		195952041594473F001757BC = {
+			isa = PBXGroup;
+			children = (
+				1959521D1594473F001757BC /* TestSkybox */,
+				195952121594473F001757BC /* Frameworks */,
+				195952101594473F001757BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		195952101594473F001757BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1959520F1594473F001757BC /* TestSkybox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		195952121594473F001757BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				195952131594473F001757BC /* UIKit.framework */,
+				195952151594473F001757BC /* Foundation.framework */,
+				195952171594473F001757BC /* CoreGraphics.framework */,
+				195952191594473F001757BC /* GLKit.framework */,
+				1959521B1594473F001757BC /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1959521D1594473F001757BC /* TestSkybox */ = {
+			isa = PBXGroup;
+			children = (
+				195952261594473F001757BC /* SJAppDelegate.h */,
+				195952271594473F001757BC /* SJAppDelegate.m */,
+				195952291594473F001757BC /* Shader.fsh */,
+				1959522B1594473F001757BC /* Shader.vsh */,
+				1959522D1594473F001757BC /* SJViewController.h */,
+				1959522E1594473F001757BC /* SJViewController.m */,
+				195952301594473F001757BC /* SJViewController.xib */,
+				19A4A94115B3DF4F000F96A1 /* negy.jpg */,
+				19A4A94215B3DF4F000F96A1 /* negz.jpg */,
+				19A4A94315B3DF4F000F96A1 /* posx.jpg */,
+				19A4A94415B3DF4F000F96A1 /* negx.jpg */,
+				19A4A94515B3DF4F000F96A1 /* posy.jpg */,
+				19A4A94615B3DF4F000F96A1 /* posz.jpg */,
+				1959521E1594473F001757BC /* Supporting Files */,
+			);
+			path = TestSkybox;
+			sourceTree = "<group>";
+		};
+		1959521E1594473F001757BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1959521F1594473F001757BC /* TestSkybox-Info.plist */,
+				195952201594473F001757BC /* InfoPlist.strings */,
+				195952231594473F001757BC /* main.m */,
+				195952251594473F001757BC /* TestSkybox-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1959520E1594473F001757BC /* TestSkybox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1959523515944740001757BC /* Build configuration list for PBXNativeTarget "TestSkybox" */;
+			buildPhases = (
+				1959520B1594473F001757BC /* Sources */,
+				1959520C1594473F001757BC /* Frameworks */,
+				1959520D1594473F001757BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestSkybox;
+			productName = TestSkybox;
+			productReference = 1959520F1594473F001757BC /* TestSkybox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		195952061594473F001757BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SJ;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = whackylabs;
+			};
+			buildConfigurationList = 195952091594473F001757BC /* Build configuration list for PBXProject "TestSkybox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 195952041594473F001757BC;
+			productRefGroup = 195952101594473F001757BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1959520E1594473F001757BC /* TestSkybox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1959520D1594473F001757BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195952221594473F001757BC /* InfoPlist.strings in Resources */,
+				1959522A1594473F001757BC /* Shader.fsh in Resources */,
+				1959522C1594473F001757BC /* Shader.vsh in Resources */,
+				195952321594473F001757BC /* SJViewController.xib in Resources */,
+				19A4A94715B3DF4F000F96A1 /* negy.jpg in Resources */,
+				19A4A94815B3DF4F000F96A1 /* negz.jpg in Resources */,
+				19A4A94915B3DF4F000F96A1 /* posx.jpg in Resources */,
+				19A4A94A15B3DF4F000F96A1 /* negx.jpg in Resources */,
+				19A4A94B15B3DF4F000F96A1 /* posy.jpg in Resources */,
+				19A4A94C15B3DF4F000F96A1 /* posz.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1959520B1594473F001757BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195952241594473F001757BC /* main.m in Sources */,
+				195952281594473F001757BC /* SJAppDelegate.m in Sources */,
+				1959522F1594473F001757BC /* SJViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		195952201594473F001757BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				195952211594473F001757BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		195952301594473F001757BC /* SJViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				195952311594473F001757BC /* en */,
+			);
+			name = SJViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1959523315944740001757BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1959523415944740001757BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1959523615944740001757BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestSkybox/TestSkybox-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "TestSkybox/TestSkybox-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1959523715944740001757BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestSkybox/TestSkybox-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "TestSkybox/TestSkybox-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		195952091594473F001757BC /* Build configuration list for PBXProject "TestSkybox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1959523315944740001757BC /* Debug */,
+				1959523415944740001757BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1959523515944740001757BC /* Build configuration list for PBXNativeTarget "TestSkybox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1959523615944740001757BC /* Debug */,
+				1959523715944740001757BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 195952061594473F001757BC /* Project object */;
+}
